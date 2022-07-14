@@ -4,26 +4,38 @@ This is a program that automates the process of getting reports about a dairy fa
 ### Author
 Cynthia Mandere Ontiri
 ### Table of Contents
-Installation
+- [Installation](##Installation)
 
-Installation process
+- [Installation process](##Installation )
 
-Usage
+- [Usage](##Usage)
 
-Contributing
+- [Contributing](##Contributing)
 
-License
+- [Contact](##Contact)
 
-Installation
-Requirements
+- [License](##License)
+
+
+## Installation
+### Requirements
 A gadget that can access the internet
 A stable internet connection
-Installation process
+
+### Installation process
 Clone the repository
-Usage
-The project can be used to outline and showcase the different things learned in HTML and CSS.
-Contributing
+Open the repository using a browser
+
+## Usage
+
+The program is to show the process of getting reports of a dairy farm  business. It will show the production rates and also the payment plan of the business. THe program will be automated.
+
+## Contributing
 Pull requests are welcome and please make sure to update tests as appropriate.
 
-License
-MIT
+## Contact
+Incase of any query regarding the program, feel free to contact me through my github account under the user name Cynthia-Ontiri. You can as weel send me a message
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
