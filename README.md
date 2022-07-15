@@ -34,7 +34,7 @@ The program is to show the process of getting reports of a dairy farm  business.
 Pull requests are welcome and please make sure to update tests as appropriate.
 
 ## Contact
-Incase of any query regarding the program, feel free to contact me through my github account under the user name Cynthia-Ontiri. You can as weel send me a message
+Incase of any query regarding the program, feel free to contact me through my github account under the user name Cynthia-Ontiri. You may as well send me a direct message or a slack message.
 
 
 ## License
