@@ -8,8 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-
+       
     <!-- HEAD SECTION -->
 
     <section>
@@ -18,12 +17,12 @@
 
         <div class="Production">
     
-            <!-- FORM - INPUT RESULTS -->
+            <!-- GENERATE RESULTS -->
             
             <div class="formData">
                 
                 <form action="submit" onsubmit="produceReport();">
-                    <h3>Fill and submit the form bellow to get a summary of your income</h3> 
+                    <h3>Fill and click generate to get a summary of your income</h3> 
                     <div id="sheds">
                         <label for="shed_A">Shed_A: Milk (Litres)</label>
                         <input id="shed_A" type="number" min="0" required>
@@ -44,7 +43,7 @@
                         <input id="shed_D" type="number" min="0" required>
                     </div>
             
-                    <button type="submit">Submit</button>
+                    <button type="generate">Generate</button>
                     <button id="reset" type="reset" onclick="resetPage();">Reset</button>
                     
                 </form>
@@ -57,7 +56,7 @@
                 <hr>
                 <p id="outputData"></p>
     
-                <!-- OPTIONAL CHALLENGE -->
+                
             </div>
         </div>
     
