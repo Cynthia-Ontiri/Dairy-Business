@@ -114,7 +114,7 @@ function produceReport(){
     incomeDecemberDifference = newIncomeDecember - incomeDecember;
 
 
-    document.getElementById("outputData").innerHTML += "<h3> Comparison and difference in income per month for different ratgit es </h3>";
+    document.getElementById("outputData").innerHTML += "<h3> Comparison and difference in income per month for different ratings </h3>";
 
     document.getElementById("outputData").innerHTML += "<p>January: At price = Ksh. 45, earning will be: Ksh. " + incomeJanuary + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, is Ksh. " + Math.round(incomeJanuaryDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
@@ -132,7 +132,7 @@ function produceReport(){
     document.getElementById("outputData").innerHTML += "\n"
     document.getElementById("outputData").innerHTML += "<p>August: At price = Ksh. 45, earning will be: Ksh. " + incomeAugust + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeAugust) + ". The difference, is Ksh. " + Math.round(incomeAugustDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
-    document.getElementById("outputData").innerHTML += "<p>September: At price = Ksh. 45, earning will be: Ksh. " + incomeSeptember + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeSeptember) + ". The difference, s Ksh. " + Math.round(incomeSeptemberDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>September: At price = Ksh. 45, earning will be: Ksh. " + incomeSeptember + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeSeptember) + ". The difference, is Ksh. " + Math.round(incomeSeptemberDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
     document.getElementById("outputData").innerHTML += "<p>October: At price = Ksh. 45, earning will be: Ksh. " + incomeOctober + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeOctober) + ". The difference, is Ksh. " + Math.round(incomeOctoberDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
