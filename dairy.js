@@ -82,7 +82,7 @@ function produceReport(){
 
    
 
-    // New price is 49.60
+    // New buying price is 49.60
     newDailyIncome = sumData * 49.60;
 
     newIncomeJanuary = newDailyIncome * 31;
