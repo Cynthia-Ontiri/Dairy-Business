@@ -114,7 +114,7 @@ function produceReport(){
     incomeDecemberDifference = newIncomeDecember - incomeDecember;
 
 
-    document.getElementById("outputData").innerHTML += "<h3> Comparison and difference in income per month for different rates </h3>";
+    document.getElementById("outputData").innerHTML += "<h3> Comparison and difference in income per month for different ratgit es </h3>";
 
     document.getElementById("outputData").innerHTML += "<p>January: At price = Ksh. 45, earning will be: Ksh. " + incomeJanuary + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, is Ksh. " + Math.round(incomeJanuaryDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
