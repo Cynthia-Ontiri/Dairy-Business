@@ -1,4 +1,4 @@
-function totalProduction(){
+function produceReport(){
 
     event.preventDefault();
 
@@ -13,10 +13,10 @@ function totalProduction(){
 
     document.getElementById("outputData").innerHTML += "<Br>"
 
-    document.getElementById("outputData").innerHTML += "<p>The production in shed A is " + data.shed_A + " litres daily</p>";
-    document.getElementById("outputData").innerHTML += "<p>The production in shed B is " + data.shed_B + " litres daily</p>";
-    document.getElementById("outputData").innerHTML += "<p>The production in shed C is " + data.shed_C + " litres daily</p>";
-    document.getElementById("outputData").innerHTML += "<p>The production in shed D is " + data.shed_D + " litres daily</p>";
+    document.getElementById("outputData").innerHTML += "<p>Your production in shed A is " + data.shed_A + " litres daily</p>";
+    document.getElementById("outputData").innerHTML += "<p>Your production in shed B is " + data.shed_B + " litres daily</p>";
+    document.getElementById("outputData").innerHTML += "<p>Your production in shed C is " + data.shed_C + " litres daily</p>";
+    document.getElementById("outputData").innerHTML += "<p>Your production in shed D is " + data.shed_D + " litres daily</p>";
 
     document.getElementById("outputData").innerHTML += "<p>The total production per day is " + sumData + " litres daily</p>";
     
@@ -114,7 +114,7 @@ function totalProduction(){
     incomeDecemberDifference = newIncomeDecember - incomeDecember;
 
 
-    document.getElementById("outputData").innerHTML += "<h3> Comparison and difference in income per month for different prices </h3>";
+    document.getElementById("outputData").innerHTML += "<h3> Comparison and difference in income per month for different rates </h3>";
 
     document.getElementById("outputData").innerHTML += "<p>January: At price = Ksh. 45, earning will be: Ksh. " + incomeJanuary + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, is Ksh. " + Math.round(incomeJanuaryDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
