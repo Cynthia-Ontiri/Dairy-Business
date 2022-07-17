@@ -2,7 +2,7 @@
 ### Description
 This is a program that automates the process of getting reports about a dairy farm  business. It will show the production rates and also the payment plan of the business
 ### Author
-Cynthia Mandere Ontiri
+By; Cynthia Mandere Ontiri
 ### Table of Contents
 - [Installation](#Installation)
 
@@ -23,8 +23,9 @@ A gadget that can access the internet
 A stable internet connection
 
 ### Installation process
-Clone the repository
+Clone the repository from github
 Open the repository using a browser
+Load the repository.
 
 ## Usage
 
