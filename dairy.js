@@ -116,29 +116,29 @@ function produceReport(){
 
     document.getElementById("outputData").innerHTML += "<h3> Comparison and difference in income per month for different rates </h3>";
 
-    document.getElementById("outputData").innerHTML += "<p>January: At price = Ksh. 45, earning will be: Ksh. " + incomeJanuary + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, is Ksh. " + Math.round(incomeJanuaryDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>January: At price = Ksh. 45, earning will be: Ksh. " + incomeJanuary + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeJanuary) + ". The difference, is Ksh. " + Math.round(incomeJanuaryDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
-    document.getElementById("outputData").innerHTML += "<p>February: At price = Ksh. 45, earning will be: Ksh. " + incomeFebruary + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeFebruary) + ". The difference, is Ksh. " + Math.round(incomeFebruaryDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>February: At price = Ksh. 45, earning will be: Ksh. " + incomeFebruary + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeFebruary) + ". The difference, is Ksh. " + Math.round(incomeFebruaryDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
-    document.getElementById("outputData").innerHTML += "<p>March: At price = Ksh. 45, earning will be: Ksh. " + incomeMarch + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeMarch) + ". The difference, is Ksh. " + Math.round(incomeMarchDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>March: At price = Ksh. 45, earning will be: Ksh. " + incomeMarch + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeMarch) + ". The difference, is Ksh. " + Math.round(incomeMarchDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
-    document.getElementById("outputData").innerHTML += "<p>April: At price = Ksh. 45, earning will be: Ksh. " + incomeApril + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeApril) + ". The difference, is Ksh. " + Math.round(incomeAprilDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>April: At price = Ksh. 45, earning will be: Ksh. " + incomeApril + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeApril) + ". The difference, is Ksh. " + Math.round(incomeAprilDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
-    document.getElementById("outputData").innerHTML += "<p>May: At price = Ksh. 45, earning will be: Ksh. " + incomeMay + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeMay) + ". The difference, is Ksh. " + Math.round(incomeMayDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>May: At price = Ksh. 45, earning will be: Ksh. " + incomeMay + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeMay) + ". The difference, is Ksh. " + Math.round(incomeMayDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
-    document.getElementById("outputData").innerHTML += "<p>June: At price = Ksh. 45, earning will be: Ksh. " + incomeJune + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJune) + ". The difference, is Ksh. " + Math.round(incomeJuneDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>June: At price = Ksh. 45, earning will be: Ksh. " + incomeJune + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeJune) + ". The difference, is Ksh. " + Math.round(incomeJuneDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
-    document.getElementById("outputData").innerHTML += "<p>July: At price = Ksh. 45, earning will be: Ksh. " + incomeJuly + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeJuly) + ". The difference, is Ksh. " + Math.round(incomeJulyDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>July: At price = Ksh. 45, earning will be: Ksh. " + incomeJuly + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeJuly) + ". The difference, is Ksh. " + Math.round(incomeJulyDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
-    document.getElementById("outputData").innerHTML += "<p>August: At price = Ksh. 45, earning will be: Ksh. " + incomeAugust + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeAugust) + ". The difference, is Ksh. " + Math.round(incomeAugustDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>August: At price = Ksh. 45, earning will be: Ksh. " + incomeAugust + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeAugust) + ". The difference, is Ksh. " + Math.round(incomeAugustDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
-    document.getElementById("outputData").innerHTML += "<p>September: At price = Ksh. 45, earning will be: Ksh. " + incomeSeptember + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeSeptember) + ". The difference, s Ksh. " + Math.round(incomeSeptemberDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>September: At price = Ksh. 45, earning will be: Ksh. " + incomeSeptember + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeSeptember) + ". The difference, s Ksh. " + Math.round(incomeSeptemberDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
-    document.getElementById("outputData").innerHTML += "<p>October: At price = Ksh. 45, earning will be: Ksh. " + incomeOctober + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeOctober) + ". The difference, is Ksh. " + Math.round(incomeOctoberDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>October: At price = Ksh. 45, earning will be: Ksh. " + incomeOctober + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeOctober) + ". The difference, is Ksh. " + Math.round(incomeOctoberDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
-    document.getElementById("outputData").innerHTML += "<p>November: At price = Ksh. 45, earning will be: Ksh. " + incomeNovember + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeNovember) + ". The difference, is Ksh. " + Math.round(incomeNovemberDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>November: At price = Ksh. 45, earning will be: Ksh. " + incomeNovember + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeNovember) + ". The difference, is Ksh. " + Math.round(incomeNovemberDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "\n"
-    document.getElementById("outputData").innerHTML += "<p>December: At price = Ksh. 45, earning will be: Ksh. " + incomeDecember + ". At price = 49.60, you earn Ksh. " + Math.round(newIncomeDecember) + ". The difference, is Ksh. " + Math.round(incomeDecemberDifference) + ".</p>";
+    document.getElementById("outputData").innerHTML += "<p>December: At price = Ksh. 45, earning will be: Ksh. " + incomeDecember + ". At price = Ksh. 49.60, you earn Ksh. " + Math.round(newIncomeDecember) + ". The difference, is Ksh. " + Math.round(incomeDecemberDifference) + ".</p>";
     document.getElementById("outputData").innerHTML += "<Br>"
 
     
