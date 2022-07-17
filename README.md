@@ -4,17 +4,17 @@ This is a program that automates the process of getting reports about a dairy fa
 ### Author
 Cynthia Mandere Ontiri
 ### Table of Contents
-- [Installation](##Installation)
+- [Installation](#Installation)
 
-- [Installation process](##Installation )
+- [Installation process](#Installation )
 
-- [Usage](##Usage)
+- [Usage](#Usage)
 
-- [Contributing](##Contributing)
+- [Contributing](#Contributing)
 
-- [Contact](##Contact)
+- [Contact](#Contact)
 
-- [License](##License)
+- [License](#License)
 
 
 ## Installation
